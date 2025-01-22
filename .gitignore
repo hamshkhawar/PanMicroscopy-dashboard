@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+myenv/
+
+# vscode
+.vscode
+
+# test data directory
+omeconverted
+
+
+#macOS
+*.DS_Store
+

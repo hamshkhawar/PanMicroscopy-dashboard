@@ -1,0 +1,20 @@
+name: myenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - setuptools=61.2.0=py39h06a4308_0
+  - yaml=0.2.5=h7b6447c_0
+  - pip:
+    - solara==1.43.0
+    - solara-server==1.43.0
+    - solara-ui==1.43.0
+    - uvicorn==0.34.0
+    - pandas==2.2.3
+    - matplotlib==3.9.4
+    - matplotlib-inline==0.1.7
+    - plotly==5.24.1
+    - zipp==3.13.0
+    - pyarrow==19.0.0
+    - bfio==2.4.7
