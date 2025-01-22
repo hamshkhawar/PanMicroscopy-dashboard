@@ -52,6 +52,11 @@ To install and run this project, follow these steps:
 #### Dashboard Image
 ![Dashboard Image](image.png)
 
+
+## Note:
+This app is accessible only on [Notebook Hub](https://hub.scb-ncats.io) for viewing data and images
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
