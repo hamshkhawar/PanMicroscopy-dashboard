@@ -49,6 +49,9 @@ To install and run this project, follow these steps:
 * Click on points in the scatter plot to select images and data.
 * Use buttons to display selected data in tabular form or show images.
 
+#### Dashboard Image
+![Dashboard Image](image.png)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

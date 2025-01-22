@@ -240,7 +240,9 @@ def Page():
         selected_dataset.set(new_value)
         update_filtered_df(new_value) 
 
-    solara.Markdown("# PanMicroscopy Dataset: A Data-Driven Approach to Unbiased Image Selection")
+    solara.Markdown("## PanMicroscopy Dataset: A Data-Driven Approach to Unbiased Image Selection",
+    style={"padding-left": "25px"}
+)
     
 
     solara.Select(
@@ -248,7 +250,7 @@ def Page():
         value=selected_dataset.value, 
         values=["All"] + list(df["dataset"].unique()), 
         on_value=on_dataset_change,
-        style={"width": "200px", "padding-left": "20px"} 
+        style={"width": "200px", "padding-left": "25px"} 
     )
 
     def on_selection(data:dict):
